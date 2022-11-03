@@ -1,6 +1,4 @@
 #include <iostream>
-#include <cmath>
-#include <iomanip>
 
 int log_a_to_base_b(const int& a, const int& b) {
     return (a > (b-1)) ? 1 + log_a_to_base_b(a / b, b) : 0;
